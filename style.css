@@ -46,6 +46,7 @@ body {
 
 #user, #password {
     background-color: rgba(128, 128, 128, 0.308);
+    color: #ffff;
 }
 
 #user::placeholder, #password::placeholder {
