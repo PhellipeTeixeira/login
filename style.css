@@ -1,0 +1,76 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #ffff;
+}
+
+#login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.card {
+    background-image: linear-gradient(140deg, #282363 40%, #d866e7 100%);
+    padding: 50px;
+    border-radius: 5px;
+    width:280px;
+}
+.imagem {
+    text-align: center;
+}
+
+.card-header h2{
+    display: block;
+    text-align: center;
+    /* padding-bottom: 20px; */
+    color: #ffff;
+}
+
+.card-content, .card-content-area, .card-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+    border-radius: 2px;
+}
+
+#user, #password, .submit {
+    width: 250px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+}
+
+#user, #password {
+    background-color: rgba(128, 128, 128, 0.308);
+}
+
+#user::placeholder, #password::placeholder {
+    padding-left: 10px;
+    color: grey;
+}
+
+.submit {
+    background-color: rgb(255, 174, 0);
+}
+
+.card-footer {
+    width: 100%;
+    color: #ffff;
+    font-size: 15px;
+}
+
+.remember {
+    margin-left: 17px;
+}
+
+.card-footer a {
+    text-decoration: none;
+    margin-right: 17px;
+    float: right;
+    align-items: right;
+    color: #ffff;
+}
